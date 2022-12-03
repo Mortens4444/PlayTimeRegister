@@ -8,9 +8,9 @@
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>{A4E5FD01-DF6C-4A94-9DAA-83388307EF26}</ProjectGuid>
     <OutputType>WinExe</OutputType>
-    <StartupObject>JatekidoNyilvantarto.My.MyApplication</StartupObject>
-    <RootNamespace>JatekidoNyilvantarto</RootNamespace>
-    <AssemblyName>JatekidoNyilvantarto</AssemblyName>
+    <StartupObject>PlaytimeRegister.My.MyApplication</StartupObject>
+    <RootNamespace>PlaytimeRegister</RootNamespace>
+    <AssemblyName>PlaytimeRegister</AssemblyName>
     <FileAlignment>512</FileAlignment>
     <MyType>WindowsForms</MyType>
     <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
@@ -40,7 +40,7 @@
     <DefineDebug>true</DefineDebug>
     <DefineTrace>true</DefineTrace>
     <OutputPath>bin\Debug\</OutputPath>
-    <DocumentationFile>JatekidoNyilvantarto.xml</DocumentationFile>
+    <DocumentationFile>PlaytimeRegister.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -51,7 +51,7 @@
     <DefineTrace>true</DefineTrace>
     <Optimize>true</Optimize>
     <OutputPath>bin\Release\</OutputPath>
-    <DocumentationFile>JatekidoNyilvantarto.xml</DocumentationFile>
+    <DocumentationFile>PlaytimeRegister.xml</DocumentationFile>
     <NoWarn>42016,41999,42017,42018,42019,42032,42036,42020,42021,42022</NoWarn>
     <Prefer32Bit>false</Prefer32Bit>
   </PropertyGroup>
@@ -89,14 +89,14 @@
     <TargetZone>LocalIntranet</TargetZone>
   </PropertyGroup>
   <ItemGroup>
-    <Reference Include="Ionic.Zip, Version=1.9.1.8, Culture=neutral, PublicKeyToken=edbe51ad942a3f5c, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mtf.Windows.Forms.LanguageService.1.0.5\lib\net48\Ionic.Zip.dll</HintPath>
+    <Reference Include="DotNetZip, Version=1.16.0.0, Culture=neutral, PublicKeyToken=6583c7c814667745, processorArchitecture=MSIL">
+      <HintPath>..\packages\Mtf.Windows.Forms.LanguageService.1.0.6\lib\net48\DotNetZip.dll</HintPath>
     </Reference>
     <Reference Include="LanguageService, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mtf.Windows.Forms.LanguageService.1.0.5\lib\net48\LanguageService.dll</HintPath>
+      <HintPath>..\packages\Mtf.Windows.Forms.LanguageService.1.0.6\lib\net48\LanguageService.dll</HintPath>
     </Reference>
     <Reference Include="LanguageService.Windows.Forms, Version=1.0.1.0, Culture=neutral, processorArchitecture=MSIL">
-      <HintPath>..\packages\Mtf.Windows.Forms.LanguageService.1.0.5\lib\net48\LanguageService.Windows.Forms.dll</HintPath>
+      <HintPath>..\packages\Mtf.Windows.Forms.LanguageService.1.0.6\lib\net48\LanguageService.Windows.Forms.dll</HintPath>
     </Reference>
     <Reference Include="System" />
     <Reference Include="System.Data" />

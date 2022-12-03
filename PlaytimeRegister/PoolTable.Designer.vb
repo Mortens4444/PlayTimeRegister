@@ -1,9 +1,9 @@
-﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()> _
-Partial Class BilliardTable
+﻿<Global.Microsoft.VisualBasic.CompilerServices.DesignerGenerated()>
+Partial Class PoolTable
     Inherits System.Windows.Forms.UserControl
 
     'UserControl overrides dispose to clean up the component list.
-    <System.Diagnostics.DebuggerNonUserCode()> _
+    <System.Diagnostics.DebuggerNonUserCode()>
     Protected Overrides Sub Dispose(ByVal disposing As Boolean)
         Try
             If disposing AndAlso components IsNot Nothing Then
@@ -20,7 +20,7 @@ Partial Class BilliardTable
     'NOTE: The following procedure is required by the Windows Form Designer
     'It can be modified using the Windows Form Designer.  
     'Do not modify it using the code editor.
-    <System.Diagnostics.DebuggerStepThrough()> _
+    <System.Diagnostics.DebuggerStepThrough()>
     Private Sub InitializeComponent()
         Me.components = New System.ComponentModel.Container()
         Me.P_Middle = New System.Windows.Forms.Panel()
@@ -58,13 +58,13 @@ Partial Class BilliardTable
         '
         Me.Tsmi_SetPrice.Name = "Tsmi_SetPrice"
         Me.Tsmi_SetPrice.Size = New System.Drawing.Size(162, 22)
-        Me.Tsmi_SetPrice.Text = "Ár beállítása"
+        Me.Tsmi_SetPrice.Text = "Set price"
         '
         'Tsmi_ClearTimer
         '
         Me.Tsmi_ClearTimer.Name = "Tsmi_ClearTimer"
         Me.Tsmi_ClearTimer.Size = New System.Drawing.Size(162, 22)
-        Me.Tsmi_ClearTimer.Text = "Számláló nullázása"
+        Me.Tsmi_ClearTimer.Text = "Clear timer"
         '
         'ToolStripSeparator1
         '
@@ -75,7 +75,7 @@ Partial Class BilliardTable
         '
         Me.Tsmi_DeleteTable.Name = "Tsmi_DeleteTable"
         Me.Tsmi_DeleteTable.Size = New System.Drawing.Size(162, 22)
-        Me.Tsmi_DeleteTable.Text = "Asztal törlése"
+        Me.Tsmi_DeleteTable.Text = "Delete table"
         '
         'Btn_StartStop
         '
@@ -92,7 +92,7 @@ Partial Class BilliardTable
         '
         Me.T_Counter.Interval = 1000
         '
-        'BilliardTable
+        'PoolTable
         '
         Me.AutoScaleDimensions = New System.Drawing.SizeF(7.0!, 13.0!)
         Me.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font
@@ -100,7 +100,7 @@ Partial Class BilliardTable
         Me.BorderStyle = System.Windows.Forms.BorderStyle.Fixed3D
         Me.Controls.Add(Me.P_Middle)
         Me.Font = New System.Drawing.Font("Microsoft Sans Serif", 8.25!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(238, Byte))
-        Me.Name = "BilliardTable"
+        Me.Name = "PoolTable"
         Me.Size = New System.Drawing.Size(131, 199)
         Me.P_Middle.ResumeLayout(False)
         Me.Cms_ContentMenu.ResumeLayout(False)

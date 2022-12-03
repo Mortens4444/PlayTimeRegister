@@ -75,28 +75,28 @@ Partial Class MainForm
         '
         Me.NewToolStripMenuItem.DropDownItems.AddRange(New System.Windows.Forms.ToolStripItem() {Me.TableToolStripMenuItem})
         Me.NewToolStripMenuItem.Name = "NewToolStripMenuItem"
-        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(29, 20)
-        Me.NewToolStripMenuItem.Text = "Új"
+        Me.NewToolStripMenuItem.Size = New System.Drawing.Size(43, 20)
+        Me.NewToolStripMenuItem.Text = "New"
         '
         'TableToolStripMenuItem
         '
         Me.TableToolStripMenuItem.Name = "TableToolStripMenuItem"
         Me.TableToolStripMenuItem.ShortcutKeyDisplayString = "F2"
         Me.TableToolStripMenuItem.ShortcutKeys = System.Windows.Forms.Keys.F2
-        Me.TableToolStripMenuItem.Size = New System.Drawing.Size(122, 22)
-        Me.TableToolStripMenuItem.Text = "Asztal"
+        Me.TableToolStripMenuItem.Size = New System.Drawing.Size(146, 22)
+        Me.TableToolStripMenuItem.Text = "Pool table"
         '
         'Tsmi_About
         '
         Me.Tsmi_About.Name = "Tsmi_About"
-        Me.Tsmi_About.Size = New System.Drawing.Size(59, 20)
-        Me.Tsmi_About.Text = "Névjegy"
+        Me.Tsmi_About.Size = New System.Drawing.Size(52, 20)
+        Me.Tsmi_About.Text = "About"
         '
         'Tsmi_Exit
         '
         Me.Tsmi_Exit.Name = "Tsmi_Exit"
-        Me.Tsmi_Exit.Size = New System.Drawing.Size(52, 20)
-        Me.Tsmi_Exit.Text = "Kilépés"
+        Me.Tsmi_Exit.Size = New System.Drawing.Size(38, 20)
+        Me.Tsmi_Exit.Text = "Exit"
         '
         'MainForm
         '
@@ -108,7 +108,7 @@ Partial Class MainForm
         Me.MainMenuStrip = Me.Ms_Menu
         Me.Name = "MainForm"
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
-        Me.Text = "Játékidő nyilvántartó"
+        Me.Text = "Playtime register"
         Me.P_Main.ResumeLayout(False)
         Me.P_Main.PerformLayout()
         Me.Ms_Menu.ResumeLayout(False)

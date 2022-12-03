@@ -24,15 +24,15 @@ Partial Class About
     Private Sub InitializeComponent()
         Dim resources As System.ComponentModel.ComponentResourceManager = New System.ComponentModel.ComponentResourceManager(GetType(About))
         Me.P_Main = New System.Windows.Forms.Panel()
-        Me.P_Image = New System.Windows.Forms.Panel()
         Me.P_Information = New System.Windows.Forms.Panel()
-        Me.Lbl_Product = New System.Windows.Forms.Label()
-        Me.Lbl_CreatedBy = New System.Windows.Forms.Label()
         Me.LLbl_SendMail = New System.Windows.Forms.LinkLabel()
+        Me.Lbl_CreatedBy = New System.Windows.Forms.Label()
+        Me.Lbl_Product = New System.Windows.Forms.Label()
+        Me.P_Image = New System.Windows.Forms.Panel()
         Me.Pb_Image = New System.Windows.Forms.PictureBox()
         Me.P_Main.SuspendLayout()
-        Me.P_Image.SuspendLayout()
         Me.P_Information.SuspendLayout()
+        Me.P_Image.SuspendLayout()
         CType(Me.Pb_Image, System.ComponentModel.ISupportInitialize).BeginInit()
         Me.SuspendLayout()
         '
@@ -46,15 +46,6 @@ Partial Class About
         Me.P_Main.Size = New System.Drawing.Size(292, 83)
         Me.P_Main.TabIndex = 0
         '
-        'P_Image
-        '
-        Me.P_Image.Controls.Add(Me.Pb_Image)
-        Me.P_Image.Dock = System.Windows.Forms.DockStyle.Top
-        Me.P_Image.Location = New System.Drawing.Point(0, 0)
-        Me.P_Image.Name = "P_Image"
-        Me.P_Image.Size = New System.Drawing.Size(292, 10)
-        Me.P_Image.TabIndex = 0
-        '
         'P_Information
         '
         Me.P_Information.Controls.Add(Me.LLbl_SendMail)
@@ -66,15 +57,15 @@ Partial Class About
         Me.P_Information.Size = New System.Drawing.Size(292, 73)
         Me.P_Information.TabIndex = 1
         '
-        'Lbl_Product
+        'LLbl_SendMail
         '
-        Me.Lbl_Product.AutoSize = True
-        Me.Lbl_Product.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
-        Me.Lbl_Product.Location = New System.Drawing.Point(12, 12)
-        Me.Lbl_Product.Name = "Lbl_Product"
-        Me.Lbl_Product.Size = New System.Drawing.Size(200, 24)
-        Me.Lbl_Product.TabIndex = 0
-        Me.Lbl_Product.Text = "Játékidő nyilvántartó"
+        Me.LLbl_SendMail.AutoSize = True
+        Me.LLbl_SendMail.Location = New System.Drawing.Point(70, 43)
+        Me.LLbl_SendMail.Name = "LLbl_SendMail"
+        Me.LLbl_SendMail.Size = New System.Drawing.Size(45, 13)
+        Me.LLbl_SendMail.TabIndex = 2
+        Me.LLbl_SendMail.TabStop = True
+        Me.LLbl_SendMail.Text = "Mortens"
         '
         'Lbl_CreatedBy
         '
@@ -85,15 +76,24 @@ Partial Class About
         Me.Lbl_CreatedBy.TabIndex = 1
         Me.Lbl_CreatedBy.Text = "Created by"
         '
-        'LLbl_SendMail
+        'Lbl_Product
         '
-        Me.LLbl_SendMail.AutoSize = True
-        Me.LLbl_SendMail.Location = New System.Drawing.Point(70, 43)
-        Me.LLbl_SendMail.Name = "LLbl_SendMail"
-        Me.LLbl_SendMail.Size = New System.Drawing.Size(45, 13)
-        Me.LLbl_SendMail.TabIndex = 2
-        Me.LLbl_SendMail.TabStop = True
-        Me.LLbl_SendMail.Text = "Mortens"
+        Me.Lbl_Product.AutoSize = True
+        Me.Lbl_Product.Font = New System.Drawing.Font("Times New Roman", 15.75!, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, CType(0, Byte))
+        Me.Lbl_Product.Location = New System.Drawing.Point(12, 12)
+        Me.Lbl_Product.Name = "Lbl_Product"
+        Me.Lbl_Product.Size = New System.Drawing.Size(161, 24)
+        Me.Lbl_Product.TabIndex = 0
+        Me.Lbl_Product.Text = "Playtime register"
+        '
+        'P_Image
+        '
+        Me.P_Image.Controls.Add(Me.Pb_Image)
+        Me.P_Image.Dock = System.Windows.Forms.DockStyle.Top
+        Me.P_Image.Location = New System.Drawing.Point(0, 0)
+        Me.P_Image.Name = "P_Image"
+        Me.P_Image.Size = New System.Drawing.Size(292, 10)
+        Me.P_Image.TabIndex = 0
         '
         'Pb_Image
         '
@@ -118,9 +118,9 @@ Partial Class About
         Me.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen
         Me.Text = "Névjegy"
         Me.P_Main.ResumeLayout(False)
-        Me.P_Image.ResumeLayout(False)
         Me.P_Information.ResumeLayout(False)
         Me.P_Information.PerformLayout()
+        Me.P_Image.ResumeLayout(False)
         CType(Me.Pb_Image, System.ComponentModel.ISupportInitialize).EndInit()
         Me.ResumeLayout(False)
 

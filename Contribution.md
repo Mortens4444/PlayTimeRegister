@@ -1,0 +1,4 @@
+- Fix table delete (PoolTable should send event from deletion to MainForm, and MainForm should substract 1 from numberOfTables)
+- Save prive and currency for each table in options file
+- Translation should be introduced into LanguageService
+- Move around the tables on the panel, and save their coordinates too into options.ini

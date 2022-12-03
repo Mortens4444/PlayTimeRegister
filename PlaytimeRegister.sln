@@ -3,7 +3,12 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.3.32929.385
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "JatekidoNyilvantarto", "JatekidoNyilvantarto\JatekidoNyilvantarto.vbproj", "{A4E5FD01-DF6C-4A94-9DAA-83388307EF26}"
+Project("{F184B08F-C81C-45F6-A57F-5ABD9991F28F}") = "PlaytimeRegister", "PlaytimeRegister\PlaytimeRegister.vbproj", "{A4E5FD01-DF6C-4A94-9DAA-83388307EF26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{D632EA44-91C4-40EA-B4D4-1E35EC1C5EDF}"
+	ProjectSection(SolutionItems) = preProject
+		Contribution.md = Contribution.md
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
